@@ -2,11 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>frontend</title>
+    <title>Forma Medical Viewer</title>
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <script type="module" src="/src/main.js"></script>
+    <!-- Top Navigation Bar -->
+    <header id="app-header">
+      <div class="brand">
+        <span class="logo-dot"></span>
+        <h1>Forma</h1>
+        <span class="patient-badge">Patient 01 • CT Scan</span>
+      </div>
+      <div class="instructions">
+        <span>🖱️ <strong>Left Click + Drag</strong> to rotate 3D</span>
+        <span>📜 <strong>Scroll</strong> to navigate slices</span>
+      </div>
+    </header>
+
+    <!-- UI Viewport Panels Overlay -->
+    <div class="viewport-overlays">
+      <div class="viewport-panel" id="panel-threed">
+        <div class="pane-label top-left">3D Reconstruction</div>
+      </div>
+      <div class="viewport-panel" id="panel-axial">
+        <div class="pane-label top-right" id="label-axial">Axial View (1 / 181)</div>
+      </div>
+      <div class="viewport-panel" id="panel-coronal">
+        <div class="pane-label bottom-left" id="label-coronal">Coronal View (1 / 228)</div>
+      </div>
+      <div class="viewport-panel" id="panel-sagittal">
+        <div class="pane-label bottom-right" id="label-sagittal">Sagittal View (1 / 228)</div>
+      </div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
