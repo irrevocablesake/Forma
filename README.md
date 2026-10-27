@@ -54,11 +54,11 @@ Here is a video example of the Project.
 https://github.com/user-attachments/assets/486b17b4-04b3-4c8d-8a15-945e4203dda5
 
 ## Resources
-- Python: Medical-image preprocessing and pipeline orchestration.
-- PyTorch: Deep-learning inference.
-- TotalSegmentator: Anatomical segmentation.
-- Marching Cubes: Surface reconstruction from voxel masks.
-- trimesh: Mesh processing and GLB export.
-- Three.js: Interactive 3D visualization.
-- Vite: Frontend development and asset delivery.
+- **Python:** Medical-image preprocessing and pipeline orchestration.
+- **PyTorch:** Deep-learning inference.
+- **TotalSegmentator:** Anatomical segmentation.
+- **Marching Cubes:** Surface reconstruction from voxel masks.
+- **trimesh:** Mesh processing and GLB export.
+- **Three.js:** Interactive 3D visualization.
+- **Vite:** Frontend development and asset delivery.
 
